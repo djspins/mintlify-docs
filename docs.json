@@ -73,12 +73,12 @@
         {
           "anchor": "Dashboard",
           "href": "https://app.textcoco.com",
-          "icon": "layout-dashboard"
+          "icon": "message"
         },
         {
           "anchor": "Message Coco",
           "href": "https://wa.me/12405054050",
-          "icon": "message-circle"
+          "icon": "rectangles-mixed"
         }
       ]
     }
