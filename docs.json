@@ -11,11 +11,9 @@
   "navigation": {
         "groups": [
           {
-            "group": "Hi There",
+            "group": "Welcome",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
@@ -43,15 +41,7 @@
               "essentials/images",
               "essentials/reusable-snippets"
             ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-      }
+          }
     ],
     "global": {
       "anchors": [
