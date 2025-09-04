@@ -1,5 +1,5 @@
 ---
-title: "Quickstart"
+title: "Style Guide"
 description: "Start building awesome documentation in minutes"
 ---
 
@@ -23,6 +23,26 @@ Get your documentation site running locally and make your first customization.
     <Tip>Your preview updates automatically as you edit files.</Tip>
   </Accordion>
 </AccordionGroup>
+
+<Tip>
+
+Each **title** and **subtitle** creates an anchor and also shows up on the table of contents on the right.
+
+</Tip>
+
+<Note>
+  Any page in the `snippets` directory will be treated as a snippet and will not
+  be rendered into a standalone page. If you want to create a standalone page
+  from the snippet, import the snippet into another file and call it as a
+  component.
+</Note>
+
+<Warning>
+  You cannot use `api` for the name of a folder unless you nest it inside another folder. Mintlify uses Next.js which reserves the top-level `api` folder for internal server calls. A folder name such as `api-reference` would be accepted.
+</Warning>
+
+
+
 
 ### Step 2: Deploy your changes
 

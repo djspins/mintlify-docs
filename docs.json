@@ -19,11 +19,11 @@
           {
             "group": "Features",
             "pages": [
-              "features/Reminders",
-              "features/Calendar",
-              "features/Lists",
-              "features/Memory of You",
-              "features/Internet Search"
+              "features/reminders",
+              "features/calendar",
+              "features/lists",
+              "features/memory-of-you",
+              "features/internet-search"
             ]
           },
           {
