@@ -1,31 +1,88 @@
 ---
 title: "Calendar"
 description: "Connect multiple calendars to Coco"
-icon: "map"
+icon: "calendar"
 ---
 
-Coco can remind you of tasks, items, and TODOs by sending you a WhatsApp message at the time you specify. This can be a one time reminder or a repeating reminder.
+Coco can connect to multiple Google and Outlook calendars, allowing you to search, create, edit, and delete events directly through WhatsApp conversations. This powerful integration keeps your schedule synchronized across all your devices.
 
-## One-time reminders
+## Connecting Your Calendar
 
-One-time reminders will be sent to your WhatsApp number at the time you specify. The reminder message will be personalized to you according to your preferences.
+To connect your calendar to Coco, login to your Dashboard and navigate to the Calendar settings. You can connect multiple calendars from both Google and Outlook accounts.
+
+<Tip>
+Connect multiple calendars to keep all your schedules in one place - work, personal, family calendars, and more.
+</Tip>
+
+## Creating Calendar Events
+
+You can ask Coco to create events on your connected calendars. Simply specify the event details and which calendar to use.
+
+<Tip>
+Coco, create a meeting called "Team Standup" tomorrow at 9am on my work calendar
+</Tip>
 
 <Note>
-  If more than 24 hours have passed since you last messaged Coco, your reminders may begin with English text such as `Hi, it's Coco...`
+Calendar events are different from reminders. Events are saved to your calendar but do NOT trigger WhatsApp reminder messages.
 </Note>
 
-## Repeating reminders
+## Searching Events
 
-You can ask Coco to remind you about a task with a specified frequency. A repetition can be multiple times per day, daily, weekly, day of week, etc.
+Coco can search through all your connected calendars to find specific events or check your schedule.
 
-## Reminders to your Friends
+<Tip>
+What meetings do I have this week?
+</Tip>
 
-After saving a contact name and phone number with Coco, you can ask Coco to send them a reminder at the specified time. The specified time for the reminder will be in your timezone, unless you specify with Coco a different timezone for the reminder.
+<Tip>
+Do I have anything scheduled for Friday afternoon?
+</Tip>
+
+## Editing Events
+
+You can modify existing calendar events by asking Coco to change specific details. Coco can update:
+- Event title and description
+- Start and end times
+- Location
+- Attendees
+- Recurrence patterns
+
+<Tip>
+Move my dentist appointment to next Tuesday at 2pm
+</Tip>
+
+## Deleting Events
+
+Remove events from your calendar by asking Coco to delete them. You can delete single events or entire recurring series.
 
 <Warning>
-  Repeating reminders to friends are not supported.
+For recurring events, Coco will ask whether you want to delete just one instance or the entire series. Be specific about your intent.
 </Warning>
+
+## Recurring Events
+
+Coco supports creating and managing recurring events with various patterns - daily, weekly, monthly, or custom frequencies.
+
+<Note>
+Unlike reminders which can have multiple recurrence rules, calendar events may only contain a single recurrence pattern.
+</Note>
+
+## Calendar vs Reminders
+
+Understanding the difference between calendar events and reminders:
+
+| Feature | Calendar Events | Reminders |
+|---------|----------------|-----------|
+| WhatsApp notifications | No | Yes |
+| Saved to calendar | Yes | Optional |
+| Recurring patterns | Single rule only | Multiple rules supported |
+| Shared with contacts | Through calendar sharing | Direct WhatsApp reminders |
 
 ## Saving Reminders to Calendar
 
-If you have connected your Calendar **[link to text](/writing-content/text)**
+If you have connected your calendar to Coco, you can choose to save reminders as calendar events. This is turned **off** by default. To enable this:
+
+1. Login to your Dashboard
+2. Go to Calendar Settings  
+3. Select a calendar for saving reminders
+4. Reminders will be saved as 10-minute events on your chosen calendar
