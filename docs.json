@@ -25,22 +25,6 @@
               "features/memory-of-you",
               "features/internet-search"
             ]
-          },
-          {
-            "group": "FAKE",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Integrations",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
           }
     ],
     "global": {
