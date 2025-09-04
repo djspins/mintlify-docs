@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Coco AI",
   "colors": {
     "primary": "#236e0f",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#236e0f",
+    "dark": "#236e0f"
   },
   "favicon": "/favicon.png",
   "navigation": {
@@ -49,14 +49,18 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Roadmap",
+        "href": "https://textcoco.userjot.com"
+      },
+      {
+        "label": "Community",
+        "href": "https://discord.gg/BRxAAq47xv"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Start Now",
+      "href": "https://textcoco.com"
     }
   },
   "contextual": {
