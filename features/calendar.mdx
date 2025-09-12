@@ -10,10 +10,12 @@ Coco can connect to multiple Google and Outlook calendars, allowing you to searc
 
 To connect your calendar to Coco, login to your Dashboard and navigate to the Calendar settings. You can connect multiple calendar accounts from both Google and Outlook accounts.
 
-After your calendars are connected, you may select which calendar will be used for **New Events**. You may _optionally_ select which calendar to save your [reminders](/features/reminders) to.
+After your calendars are connected, you may select a **Default Calendar**. You may _optionally_ select which calendar to save your [reminders](/features/reminders) to (by default, reminders will not be saved to calendar).
+
+After connecting your account, you may enable or disable certain calendars from being used with Coco.
 
 <Note>
-  Calendar events are different from reminders. Coco will NOT send a WhatsApp reminder before a regular events. Coco only sends WhatsApp texts for Reminders.
+  Calendar events are different from reminders. Coco will **_not_** send you a WhatsApp text before a regular events. Coco only sends WhatsApp texts for Reminders.
 </Note>
 
 ## Creating Calendar Events
@@ -24,24 +26,23 @@ You can ask Coco to create events on your connected calendars. You may specify:
 - Name
 - Repeating frequency
 - All-Day event or not
-- People to invite to the meeting (their email addresses)
+- People to invite to the meeting (ex., email addresses)
 - Location
 - Description
 
-<Warning>
-  We do not yet support specifying which calendar to save new events to over WhatsApp. You must change the New Events calendar on your Dashboard.
-
-  \
-  This feature is coming soon\!
-</Warning>
+All new events will be saved to your **Default Calendar**. The default calendar can be changed on the dashboard. Alternatively, you can tell Coco which calendar to add the event to.
 
 <Tip>
-  Coco, create a meeting called "Team Standup" tomorrow at 9am and invite Katie from last week
+  Add basketball game to my family calendar sunday afternoon
+</Tip>
+
+<Tip>
+  Coco, create a meeting "Team Standup" tomorrow at 9am and invite Katie from last week
 </Tip>
 
 ## Search Your Calendar
 
-Coco can search through all your connected calendars to find specific events or check your schedule. You may also include or exclude certain calendars from being searched on the Dashboard.
+Coco can search through all your connected calendars to find specific events or check your schedule. If Coco cannot find an event, double check that the calendar is enabled on the Dashboard.
 
 <Tip>
   What meetings do I have this week?
@@ -53,7 +54,7 @@ Coco can search through all your connected calendars to find specific events or 
 
 ## Editing Events
 
-You can modify existing calendar events by asking Coco to change specific details. Coco can update any of the fields that can be specified in the Create New Event section
+You can modify existing calendar events by asking Coco to change specific details. Coco can edit any of the event properties that are mentioned in the Create New Event section
 
 <Tip>
   Move my dentist appointment to next Tuesday at 2pm
@@ -64,24 +65,25 @@ You can modify existing calendar events by asking Coco to change specific detail
 Coco can delete single events or entire recurring series.
 
 <Warning>
-  For recurring events, Coco will ask whether you want to delete just one instance or the entire series. Be specific about your intent.
+  If modifying or deleting recurring events, Coco will ask if it should affect just one instance or the entire event series.
 </Warning>
 
 ## Calendar vs Reminders
 
-Understanding the difference between calendar events and reminders:
+Understanding the difference between calendar events and reminders. You will get a WhatsApp text at your reminder time. You will **_not_** receive a WhatsApp text for regular events on your calendar.
 
 | Feature                | Calendar Events | Reminders |
 | ---------------------- | --------------- | --------- |
 | WhatsApp notifications | No              | Yes       |
 | Saved to calendar      | Yes             | Optional  |
-| Repeating Frequency    | Yes             | Yes       |
 
 ## Saving Reminders to Calendar
 
-If you have connected your calendar to Coco, you can choose to save reminders as calendar events. This is turned **off** by default. To enable this:
+If you have connected your calendar to Coco, you can choose to save reminders as calendar events. This is turned **off** by _default_. To turn it on:
 
-1. Login to your Dashboard
-2. Go to Calendar Settings
-3. Select a calendar for saving reminders
-4. Reminders will be saved as 10-minute events on your chosen calendar
+1. Login to your Dashboard -\> Calendar Settings
+2. Select a calendar for saving reminders
+
+<Note>
+  Reminders will be saved as 10-minute events on your chosen calendar
+</Note>
